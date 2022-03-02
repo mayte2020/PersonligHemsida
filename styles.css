@@ -1,0 +1,368 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*background-image: url(backgorund.jpg);*/
+  background-size: cover;
+}
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  padding: 60px;
+  text-align: center;
+  border-radius: 0px;
+  color: floralwhite;
+  font-family: sans-serif;
+  background-image:url(images/nicesunset_ccexpress4.jpeg);
+  background-repeat:no-repeat;
+  /*background-image: url(images/quote.jpg);*/
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+article {
+float:left;
+padding: 66px;
+width: 100%;
+height: 2000px; 
+border-radius: 30px;
+border-color:black;
+background-color:rgb(234,229,229);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section::after {
+content: "";
+display: table;
+clear: both;
+}
+
+/*aside {
+float: right;
+width: 30%;
+height: 300px; 
+background
+padding: 20px;
+color:unset;
+border:radius 20px;
+}*/
+
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:transparent;
+  font-size:large;
+  -ms-flex-align: start;
+  text-align: center;
+  font-family: sans-serif;
+}
+/*positioning the menu*/
+li {
+  float:right;
+  ;
+}
+
+li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration:whitesmoke;
+  font-weight: bold;
+}
+
+li a:hover:not(.active) {
+  background-color:transparent;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+footer{
+  background-image: radial-gradient(circle at bottom center, rgb(230,199,187),rgb(60,60,63));
+  padding: 60px;
+  text-align: center; 
+  align-items:center;
+}
+.btn {
+  background-color:transparent;
+  border: none;
+  color:white;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 100%;
+  padding: top 100px; ;
+  z-index: 1;
+}
+.perfil img{
+  align-content:flex-end;
+  display: flex;
+  float:right;
+  margin-top: 20px;
+  margin-right : 10px;
+  border-radius: 30%;
+  margin-bottom: 20px;
+  padding::after;
+  border: 5px solid #555;
+ /* Safari */ 
+}
+
+h6 {
+  text-align: center;
+  font-size: medium;
+  font-weight:lighter;
+  color:black;
+  margin-top: 60px;
+  margin-bottom: 0%;
+}
+/*text in the header*/
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  position: calc();
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.2); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  height: 20%;
+}
+h2 {
+  display:flex;
+  flex-direction: row;
+  width: 40%;
+  text-align:center;
+  padding: 90px;
+  margin-top: 120px;
+  align-content: center;
+  margin-left: 350px;
+  font-size:large;
+}
+h2:before, h2:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+h2:before {
+  margin-right: 20px;
+  margin-left: 40px;
+}
+h2:after {
+  margin-left: 20px;
+}
+
+/* class for the list in the footer*/
+.ulfooter {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 10px;
+  margin-right: 550px;
+  margin-top: 0px;
+  align-items: center;
+  float: right;
+  align-items: flex-start;
+}
+
+#fade_out {
+  position:relative;
+  height:100%;
+  width:auto;
+  margin:0 auto;
+}
+
+#fade_out img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 2s linear;
+  -moz-transition: opacity 2s linear;
+  transition: opacity 2s linear;
+}
+
+#fade_out img.top:hover {
+  opacity:0;
+}
+div.gallery {
+  margin: 10px;
+  border: 0px solid #ccc;
+  float:left;
+  width: 300px;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  padding: 5px;
+  border-radius: 30px;
+  z-index: -1;
+}
+
+div.gallery:hover {
+  border: 0px solid #777;
+}
+
+div.gallery img {
+  width: 75%; 
+  height: auto;
+  border-radius: 10px;
+  z-index: -1;
+ 
+}
+/*class description for every book*/
+.desc{
+  padding: 20px;
+  text-align:justify;
+  margin-top: 0%;
+  margin-right: 4px;
+  width: fit-content;
+  height: 5em;
+  line-height: 1.2em; 
+  margin-bottom: 10px;
+  z-index: 1;
+  min-width: 300px;;
+  margin-left: 20px;
+}
+.desc:not(:last-child){
+  margin-bottom: 60px;
+}
+.desc:hover .desc{
+  display: block; 
+}
+
+
+
+/*style for the profile image*/
+.container {
+  position: relative;
+  width: 30%;
+  max-width: 300px;
+  float:right;
+}
+
+* {box-sizing: border-box;}
+.image {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 60%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 80px;
+  margin-left: 40%;
+  margin-bottom: 0%;
+  margin-top: 100%;
+  margin-right:40px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+div.a{
+  text-align: justify;
+  border-radius: 15px;
+  background-color:rgb(234,238,244);
+  width:700px;
+  padding: 15px;
+  font-size: medium;
+  line-height: 1.4em; 
+  
+}
+/* style to create shwaodw over every books image*/
+img.hover-shadow {
+  transition: 0.10s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left:0%;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+  width: 50%;
+}
+.hr1 {
+  display: block;
+  margin-top: 2.9em;
+  margin-bottom: 0.2em;
+  margin-left:0%;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 100%;
+  -ms-flex-align: end;
+}
+
+body {
+  font: 14px verdana;
+}
+
+/*#content {
+  height: 3em;
+  line-height: 1.2em;
+  width: 280px;
+  padding: 10px;
+  text-align:justify;
+  margin-top: 0%;
+  margin-right: 3px;
+}*/
+
+.more {display: none;}
+.dots { 
+  background: url('https://i.stack.imgur.com/otJN0.png') repeat-x bottom; 
+}
+button{
+  background-image:radial-gradient(circle at bottom center, rgb(230,199,187),rgb(60,60,63));
+  padding: 100px;
+  cursor: pointer;
+  padding:8px 20px;
+  border-radius:  40px;
+  text-transform: capitalize;
+  color: white;
+  z-index: 1;
+}
+
+.fa fa-github{
+  color: black;
+}
+.fa arrow-circle-up{
+float: right;
+font-style: italic;
+margin-right: 0%;
+margin-left:auto;
+color: white;
+}
+
+i {
+font-style: italic;
+margin-right: 0%;
+margin-left:auto;
+color: white;
+}
+
+.floatstyle{
+  float: right;
+}
+
